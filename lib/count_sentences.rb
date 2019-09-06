@@ -24,6 +24,6 @@ class String
       end
       i += 1
     end
-    return count      
+    return count
   end
 end
