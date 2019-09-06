@@ -19,7 +19,7 @@ class String
     i = 0
 
     while i < self.split.count
-      if self.split[i] != nil
+      if self.split[i].sentence? || self.split[i].question? || self.split[i].exclamation?
         count += 1
       end
       i += 1
